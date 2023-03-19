@@ -1,0 +1,21 @@
+{
+  "name": "mysql-desktop",
+  "version": "1.0.0",
+  "description": "My Electron MySQL App",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^23.1.4"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "jquery": "^3.6.4",
+    "mysql": "^2.18.1"
+  }
+}

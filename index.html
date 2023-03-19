@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <title>My Electron MySQL App</title>
+  </head>
+  <body>
+    <h1>Welcome to My Electron MySQL App</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <ul id="list" class="list-group">
+                   <li class="list-group-item">Buy Groceries</li>
+                   <li class="list-group-item">Cook Meal</li>
+                </ul>
+            </div>
+ 
+            <div class="col-md-6">
+                <input class="form-control" id="newTask" placeholder="Enter New Task" />
+                <br />
+                <button type="button" class="btn btn-primary" id="addTask">
+                    Add Task
+                </button>
+            </div>
+        </div>
+     </div>
+  </body>
+  <script src="./js/renderer.js"></script>
+</html>
